@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-header {
+  height: 70px;
+  border-bottom: 1px solid #E6E6E6;
+  display: flex;
+}
+
+.page-header-content {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.page-header-content .logo {
+  width: 160px;
+  height: 40px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.page-content {
+  margin-top: 36px;
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.icon-arrow {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  -moz-transition: -moz-transform 0.5s; /* Firefox 4 */
+  -webkit-transition: -webkit-transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: -o-transform 0.5s;
+  margin-top:10px;
+}
+
+.icon-arrow-rotate {
+  transform: rotate(-180deg);
+  transition: transform 0.5s;
+  -moz-transition: -moz-transform 0.5s; /* Firefox 4 */
+  -webkit-transition: -webkit-transform 0.5s; /* Safari 和 Chrome */
+  -o-transition: -o-transform 0.5s;
+}
